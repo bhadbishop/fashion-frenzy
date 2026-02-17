@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial</title>
+    <link rel="shortcut icon" href="pics/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<video src="video/BRACELETS COMMERCIAL _ SHOT ON SONY A7SIII.mp4" id="b-video" autoplay muted loop></video>
+<div class="login">
+    <div class="login-c" data-aos="fade-left" data-aos-delay="900">
+<h2 class="signup"> Sign In</h2>
+<p class="sp">Let's open a digital wallet for you! Expect a confirmation email 
+    with detailed instuctions on accessing and navigating your account</p>
+    <form action="submit" id="fom">
+        <p class="pl">Your Name*</p>
+        <label for="name"></label>
+        <input type="text" name="name" id="name" required placeholder="First Name">
+       <br><br>
+        <label for="lastname"></label>
+        <input type="text" name="lastname" id="name" required placeholder="Last Name">
+        <br><br>
+        <p class="pl">Your Email*</p>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" required placeholder="@email.com">
+        <br><br>
+        <p class="pl">Password*</p>
+        <label for="password"></label>
+        <input type="password" name="password" id="email" required placeholder="password">
+        <br>
+        <button type="submit" id="but">Sign In</button>
+        <br>
+        <a href="" id="su">Sign Up</a>
+    </form>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration:1000, mirror:true, once:false,
+    });
+  </script>
+
+</body>
+</html>

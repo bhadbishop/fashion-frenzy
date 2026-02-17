@@ -1,0 +1,765 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+.c a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (min-width:1501px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:1201px) and (max-width: 1500px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+
+
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+
+#details{
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 32px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 22px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.conh{
+    font-size: 22px;
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 26px;
+}
+
+.conp{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+ 
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 15px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:560px) and (max-width: 768px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.conh{
+    font-size: 22px;
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 26px;
+}
+
+.conp{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 12px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width:300px) and (max-width: 559px) {
+
+#tems{
+    background: url(pics/terms-bg.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.tp{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+#con{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+}
+
+.conh{
+    font-size: 20px;
+}
+
+.cont{
+    width: 100%;
+    margin-top: 26px;
+}
+
+.conp{
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+
+ 
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 11px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+
+}

@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 10%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+#but{
+    width: 10%;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 2rem;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#but:hover{
+    width: 11%;
+    height: 3rem;
+    background-color: black;
+    color: gold;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+#branch{
+    margin-top: 20px;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#homevideo{
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+
+
+}
+
+.ord{
+    width: 7rem;
+    height: 4rem;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    border-radius: 10px;
+    animation: animate 1s linear infinite ;
+}
+
+@keyframes animate{
+    0%{
+        width: 7rem;
+        height: 4rem;
+    }
+    50%{
+        width: 8rem;
+        height: 4.5rem;
+        font-size: 20px;
+    }
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+#pman{
+    width: 100%;
+    height: 35rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.pd{
+    width: 45%;
+    height: 30rem;
+
+}
+
+.pf{
+    width: 50%;
+    height: 30rem;
+
+}
+
+
+.pm{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.id{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.ij{
+    width: 45%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+
+.pa{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.il{
+    width: 95%;
+    height: 90%;
+    border-radius: 1rem;
+
+}
+
+
+.url{
+    background: url("jew/j1.jpg");
+    width: 100%;
+    height: 30rem;
+    margin-top: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: back 60s  ease-in-out infinite;
+
+}
+
+@keyframes back{
+    0%{
+        background: url("jew/j1.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    3%{
+        background: url("jew/j1.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background: url("jew/j2.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    28%{
+        background: url("jew/j2.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background: url("jew/j3.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    53%{
+        background: url("jew/j3.jpg");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background: url("jew/j3.webp");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    78%{
+        background: url("jew/j3.webp");
+        width: 100%;
+        height: 30rem;
+        margin-top: 5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: silver;
+  margin-top: 5rem;
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    gap: 18%;
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 17rem ;
+    margin-top: 6rem;
+    background-color: rgb(104, 104, 104);
+
+}
+
+.m{
+    position: absolute;
+    left: 75%;
+
+}
+
+
+
+.iw{
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid black;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: black;
+}

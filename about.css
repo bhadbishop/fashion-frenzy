@@ -1,0 +1,1138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.c a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (min-width:1501px) {
+#aboutus{
+    background: url(image/about\ us.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 17rem;
+    font-size: 50px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.fid{
+    width: 50%;
+    height: 20rem;
+    background:url(pics/founder1.jpg);
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 10rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 5rem;
+height: 5rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+
+
+}
+
+.qst{
+text-align: center;
+}
+
+
+
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:1201px) and (max-width: 1500px) {
+#aboutus{
+    background: url(image/about\ us.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 17rem;
+    font-size: 50px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.fid{
+    width: 50%;
+    height: 20rem;
+    background:url(pics/founder1.jpg);
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 10rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 5rem;
+height: 5rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+
+
+}
+
+.qst{
+text-align: center;
+}
+
+
+
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+#aboutus{
+    background: url(image/about\ us.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 17rem;
+    font-size: 50px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+.conp{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.fid{
+    width: 50%;
+    height: 20rem;
+    background:url(pics/founder1.jpg);
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 10rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 5rem;
+height: 5rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+
+
+}
+
+.qst{
+text-align: center;
+}
+
+
+#details{
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 32px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 22px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+#aboutus{
+    background: url(image/about\ us.jpg);
+    width: 100%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 40px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conh{
+    font-size: 20px;
+}
+
+.conp{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.fid{
+    width: 50%;
+    height: 16rem;
+    background:url(pics/founder1.jpg);
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 9rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 4rem;
+height: 4rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+font-size: 13px;
+
+
+}
+
+.qst{
+text-align: center;
+font-size: 12px;
+}
+
+
+
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 15px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
+
+
+@media only screen and (min-width:560px) and (max-width: 768px) {
+#aboutus{
+    background: url(image/about\ us.jpg);
+    width: 100%;
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 40px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conh{
+    font-size: 18px;
+}
+
+.conp{
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.fid{
+    width: 60%;
+    height: 14rem;
+    background:url(pics/founder1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 8rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 3.2rem;
+height: 3.2rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+font-size: 11px;
+
+
+}
+
+.qst{
+text-align: center;
+font-size: 11px;
+}
+
+
+
+
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 12px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+}
+
+
+@media only screen and (min-width:300px) and (max-width: 559px) {
+#aboutus{
+    background: url(image/file_0000000097b061f58c5bb13330eb7e20.png);
+    width: 100%;
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.au{
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 30px;
+    color: white;
+}
+
+#a1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 5%;
+
+    
+}
+
+
+.cont{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conh{
+    font-size: 16px;
+}
+
+.conp{
+    font-size: 12px;
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+#bio{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.fid{
+    width: 60%;
+    height: 14rem;
+    background:url(pics/founder1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#qs{
+    width: 90%;
+    height: 8rem;
+    background-color: whitesmoke;
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aicon{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ic{
+width: 2.7rem;
+height: 2.7rem;
+align-items: center;
+
+
+}
+
+.h5{
+    margin-top: 5px;
+text-align: center;
+font-size: 10px;
+
+
+}
+
+.qst{
+text-align: center;
+font-size: 10px;
+}
+
+
+ 
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 11px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}

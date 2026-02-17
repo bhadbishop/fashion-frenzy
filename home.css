@@ -1,0 +1,3419 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#but a:hover{
+    color: white;
+}
+.c a{
+    color: white;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+}
+
+.rate{
+    display: inline;
+       
+}
+
+.rate input{
+    display: none;
+}
+
+
+.rate label{
+    width: 10%;
+    /* background-color: #28d312; */
+    float: right;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+    margin-right: 20px;
+
+    
+}
+
+
+
+.rate input:checked ~ label,
+.rate label:hover,
+.rate label:hover ~ label{
+    color: #d38312;
+}
+
+
+/* ....................................option................................. */
+
+
+@media only screen and (min-width:1501px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    padding-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.text2{
+    font-size: 20px;
+   padding-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+
+.home{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 32px;
+    height: 32px;
+    padding-top: 28px;
+    margin-left: 25rem;
+}
+
+.acc{
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 90%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 60rem;
+    transition: all 0.3s ease;
+    padding-top: 50px;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 3rem;
+    top: 35%;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 40px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+#overflow{
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 4rem;
+    animation: animate 30s linear infinite;
+}
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 25rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+  }
+  
+  .cat1{
+    width: 19%;
+    height: 20rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 3px solid black;
+   overflow: hidden;
+  
+  }
+  
+  
+  .cati{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+  .details{
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+  
+  
+  .price{
+    margin-left: 1rem;
+
+  }
+  #qnt{
+    width: 30px;
+  }
+  
+  
+  .rate{
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+   width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+/* ..................................................... */
+
+
+
+
+
+
+
+@media only screen and (min-width:1201px) and (max-width: 1500px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 30px;
+    height: 30px;
+    margin-top: 28px;
+    margin-left: 25rem;
+}
+
+.acc{
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 90%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+
+/* ........................addtocart............... */
+
+
+.container{
+    display: flex;
+    width: 70%;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+#root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+}
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgb(124, 123, 123);
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.head{
+    background-color: black;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid rgb(43, 42, 42);
+}
+
+
+
+
+
+
+/* .................................................... */
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+    padding-top: 50px;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 3rem;
+    top: 35%;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 40px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+#overflow{
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 4rem;
+    animation: animate 30s linear infinite;
+    margin-top: 2rem;
+}
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 25rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+  }
+  
+  .cat1{
+    width: 19%;
+    height: 20rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 3px solid black;
+   overflow: hidden;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+
+
+  .details{
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+  
+  
+  .price{
+    margin-left: 1rem;
+
+  }
+  #qnt{
+    width: 30px;
+  }
+  
+  
+  .rate{
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+   width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ............................................ */
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ic{
+    width: 30px;
+    height: 30px;
+    margin-top: 28px;
+    margin-left: 13rem;
+}
+
+.acc{
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 90%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 2.5rem;
+    top: 35%;
+    left: 15%;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 35px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+#overflow{
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 4rem;
+    animation: animate 30s linear infinite;
+}
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 15px;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 23rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+  }
+  
+  .cat1{
+    width: 20%;
+    height: 17rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 2px solid black;
+   overflow: hidden;
+  }
+  
+  
+
+    
+  .cati{
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 1rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+
+
+  .details{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  
+   .price{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  #qnt{
+    width: 30px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 13px;
+    height: 13px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 32px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 22px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ............................................ */
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 18px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 23px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ic{
+    width: 26px;
+    height: 26px;
+    margin-top: 28px;
+    margin-left: 5rem;
+}
+
+.acc{
+    width: 95%;
+    height: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 95%;
+    height: 33px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+
+
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 45rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 2rem;
+    top: 33%;
+    left: 15%;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 33px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+}
+#overflow{
+    width: 90%;
+    height: 90px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 3rem;
+    animation: animate 30s linear infinite;
+}
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 15px;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 20rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+  }
+  
+  .cat1{
+    width: 23%;
+    height: 17rem;
+  margin-top: 3%;
+    /* background-color: red; */
+   border: 2px solid black;
+   overflow: hidden;
+  }
+  
+
+    
+  .cati{
+    width: 100%;
+    height: 8rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+  .details{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  
+  .price{
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  #qnt{
+    width: 30px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 13px;
+    height: 13px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 15px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
+
+
+
+
+
+/* ..................................... */
+
+
+@media only screen and (min-width:560px) and (max-width: 768px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 24px;
+    height: 24px;
+    margin-top: 28px;
+    margin-left: 1rem;
+}
+
+
+.acc{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  ;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 95%;
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+
+
+#branch{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 35rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 1rem;
+    top: 20%;
+    left: 15%;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 20px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 20px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+}
+#overflow{
+    width: 90%;
+    height: 70px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 3rem;
+    animation: animate 30s linear infinite;
+}
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 13px;
+}
+
+
+
+.cath{
+    width: 100%;
+    height: 17rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cat1{
+    width: 24%;
+    height: 15rem;
+  margin-top: 2%;
+    /* background-color: red; */
+   border: 2px solid black;
+   overflow: hidden;
+  }
+
+
+  
+  .cati{
+    width: 100%;
+    height: 8rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+
+
+  .details{
+    margin-left: 0.5rem;
+    font-size: 9px;
+  }
+  
+  
+  .price{
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  #qnt{
+    width: 30px;
+    height: 10px;
+    font-size: 10px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 12px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ......................................... */
+
+
+
+
+@media only screen and (min-width:300px) and (max-width: 559px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 22px;
+    height: 22px;
+    margin-top: 25px;
+ 
+}
+
+.acc{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 95%;
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+.opt{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 60%;
+    background-color: whitesmoke;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+.opt.active{
+    left: 0; 
+}
+
+
+.optt{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+
+
+.otext{
+    font-size: 20px;
+}
+
+.otext a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.opti{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer; 
+}
+
+/* ............................................................................ */
+
+/* ...................................................addtocart.......................... */
+
+
+
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgb(0, 0, 0, 0.1);
+    padding: 65px 20px 40px;
+    z-index: 100;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-detail{
+    display: grid;
+    gap: 8px;
+    margin-right: auto;
+}
+
+
+.cart-product-title{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.cart-price{
+    font-weight: 500;
+
+}
+
+.cart-quantity{
+    display: flex;
+    width: 100px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.cart-quantity button{
+    background: transparent;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.cart-quantity #decrement{
+    color: #999;
+}
+
+.cart-quantity .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    cursor: default;
+}
+
+
+.cart-remove{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.total-price{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+
+.btn-buy{
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+
+#cart-close{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* ................................................................................................ */
+
+
+
+
+#branch{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 35rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 1rem;
+    top: 30%;
+    left: 15%;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 20px;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 20px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 35rem;
+}
+#overflow{
+    width: 90%;
+    height:50px;
+    overflow: hidden;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+
+}
+
+.scroll-content{
+    width: fit-content;
+    display: flex;
+    gap: 3rem;
+    animation: animate 30s linear infinite;
+}
+
+
+
+.brand{
+width: 100px;
+}
+
+@keyframes animate{
+    0%{transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 13px;
+}
+
+
+
+.cath{
+    width: 100%;
+    height: 17rem;
+    background-color: whitesmoke;
+    overflow-y: hidden;
+      overflow-x: auto;
+    gap: 15px;
+    scroll-behavior: smooth;
+    display: flex;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+  }
+  
+  
+.cath::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+
+  .cat1{
+    flex: 0 0 auto;
+    width: 40%;
+    height: 15rem;
+    /* background-color: red; */
+   border: 1.5px solid black;
+   margin-left: 20px;
+   overflow: hidden;
+  }
+  
+
+    
+  .cati{
+  width: 100%;
+    height: 8rem;
+    transition: transform 0.5s ease;
+  }
+
+  .cat1:hover img{
+    transform: scale(1.1);
+  }
+
+  .details{
+    margin-left: 0.5rem;
+    font-size: 9px;
+  }
+  
+  
+  .price{
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  #qnt{
+    width: 30px;
+    height: 10px;
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 38rem;
+    background-color: black;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 30rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+ 
+}
+
+
+.about{
+width: 70%;
+height: auto;
+margin-top: 2rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: auto ;
+    margin-top: 2rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: auto;
+    margin-top: 2rem;
+
+}
+
+.iw{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+font-size: 11px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}

@@ -1,0 +1,2086 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.c a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white ;
+}
+
+
+
+
+@media only screen and (min-width:1501px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 32px;
+    height: 32px;
+    margin-top: 28px;
+    margin-left: 25rem;
+}
+
+.acc{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 10%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+#but{
+    width: 10%;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+#but:hover{
+    width: 11%;
+    height: 3rem;
+    background-color: black;
+    color: gold;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 60rem;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 3rem;
+    top: 35%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 40px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 25rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
+  
+  .cat1{
+    width: 19%;
+    height: 20rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 3px solid black;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  .details{
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+  
+  
+  #amt{
+    margin-left: 1rem;
+  }
+  
+  #qnt{
+    width: 20px;
+  }
+  
+  
+  .rate{
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+   width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+    margin-top: 2rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+/* ..................................................... */
+
+
+
+
+
+
+
+@media only screen and (min-width:1201px) and (max-width: 1500px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ic{
+    width: 30px;
+    height: 30px;
+    margin-top: 28px;
+    margin-left: 25rem;
+}
+
+.acc{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 10%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+#but{
+    width: 10%;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+#but:hover{
+    width: 11%;
+    height: 3rem;
+    background-color: black;
+    color: gold;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 3rem;
+    top: 35%;
+    left: 15%;
+      border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 40px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 25rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+    margin-top: 3.7rem;
+  }
+  
+  .cat1{
+    width: 19%;
+    height: 20rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 3px solid black;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+  .details{
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+  
+  
+  #amt{
+    margin-left: 1rem;
+  }
+  
+  #qnt{
+    width: 20px;
+  }
+  
+  
+  .rate{
+    width: 80%;
+    height: auto;
+    margin-left: 1rem;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+   width: 85%;
+    height: 20px;
+  margin: 1rem 0 1.5rem 1rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 32rem;
+    background-color: black;
+    margin-top: 2rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 35px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 24px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ............................................ */
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width: 1200px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.text2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.ff{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ic{
+    width: 30px;
+    height: 30px;
+    margin-top: 28px;
+    margin-left: 13rem;
+}
+
+.acc{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 10%;
+    height: 35px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 40px;
+    height: 40px;
+
+}
+
+#but{
+    width: 10%;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 180px;
+}
+
+#but:hover{
+    width: 10%;
+    height: 3rem;
+    background-color: black;
+    color: gold;
+    border-radius: 15px;
+    border: none;
+    font-size: 22px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 50rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 2.5rem;
+    top: 35%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 35px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 15px;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 23rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+  }
+  
+  .cat1{
+    width: 20%;
+    height: 17rem;
+  margin-top: 5%;
+    /* background-color: red; */
+   border: 2px solid black;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 8rem;
+ 
+  }
+  .details{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  
+  #amt{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  #qnt{
+    width: 20px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 13px;
+    height: 13px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 30rem;
+    background-color: black;
+    margin-top: 1.8rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 32px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 22px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 17px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+
+border-top: 2px solid white;
+display: flex;
+justify-content: center;
+gap: 20px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ............................................ */
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 18px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 23px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 26px;
+    height: 26px;
+    margin-top: 28px;
+    margin-left: 5rem;
+}
+
+.acc{
+    width: 15%;
+    height: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 15%;
+    height: 33px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+
+#but{
+    width: 12%;
+    height: 2.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+    border: 0.8px solid black;
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+#but:hover{
+      width: 12%;
+    height: 2.5rem;
+    background-color: black;
+    color: gold;
+    border-radius: 13px;
+    border: none;
+    font-size: 18px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 45rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 2rem;
+    top: 33%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 33px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 15px;
+}
+
+
+
+.cath{
+    width: 94%;
+    height: 20rem;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+  
+  .cat1{
+    width: 23%;
+    height: 17rem;
+  margin-top: 3%;
+    /* background-color: red; */
+   border: 2px solid black;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 8rem;
+ 
+  }
+  .details{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  
+  #amt{
+    margin-left: 0.9rem;
+    font-size: 13px;
+  }
+  
+  #qnt{
+    width: 20px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 13px;
+    height: 13px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    margin-top: 1.6rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 25%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 25%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 15px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
+
+
+
+
+
+/* ..................................... */
+
+
+@media only screen and (min-width:560px) and (max-width: 768px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ic{
+    width: 24px;
+    height: 24px;
+    margin-top: 28px;
+    margin-left: 1rem;
+}
+
+.acc{
+    width: 13%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  ;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 13%;
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+
+#but{
+    width: 12%;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    border: 0.8px solid black;
+    font-size: 15px;
+    margin-top: 150px;
+}
+
+#but:hover{
+      width: 12%;
+    height: 2rem;
+    background-color: black;
+    color: gold;
+    border-radius: 11px;
+    border: none;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 35rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 1rem;
+    top: 20%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 20px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 13px;
+}
+
+
+
+.cath{
+    width: 100%;
+    height: 17rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+  }
+  
+  .cat1{
+    width: 24%;
+    height: 15rem;
+  margin-top: 2%;
+    /* background-color: red; */
+   border: 2px solid black;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 8rem;
+ 
+  }
+  .details{
+    margin-left: 0.5rem;
+    font-size: 9px;
+  }
+  
+  
+  #amt{
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  #qnt{
+    width: 10px;
+    height: 10px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    margin-top: 1.5rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 12px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
+
+
+
+
+/* ......................................... */
+
+
+
+
+@media only screen and (min-width:300px) and (max-width: 559px) {
+    
+
+
+
+#header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;  
+    margin-top: 10px;
+    
+}
+
+
+#prod{
+    width: 100px;
+    height: 50px;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.text2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.name{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+  
+}
+
+.ff{
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+
+.home{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ic{
+    width: 22px;
+    height: 22px;
+    margin-top: 25px;
+ 
+}
+
+.acc{
+    width: 15%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  ;
+    margin-top: 18px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.acc:hover{
+    width: 15%;
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    color: white;
+ 
+}
+
+
+.contact{
+    width: 35px;
+    height: 35px;
+
+}
+
+#but{
+    width: 15%;
+    height: 1.8rem;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: 0.8px solid black;
+    font-size: 13px;
+    margin-top: 180px;
+}
+
+#but:hover{
+      width: 15%;
+    height: 1.8rem;
+    background-color: black;
+    color: gold;
+    border-radius: 11px;
+    border: none;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#branch{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#homevideo{
+    width: 100%;
+    height: 35rem;
+    transition: all 0.3s ease;
+
+}
+
+
+#search{
+    width: 70%;
+    height: 1rem;
+    top: 30%;
+    left: 15%;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(175, 172, 172);
+}
+
+input[type="search"]{
+    background-color: transparent;
+    padding: 20px;
+    outline: none;
+}
+
+.hvid{
+    width: 100%;
+    height: 35rem;
+}
+
+
+.bn{
+    font-family: 'Lucida Handwriting',cursive;
+    font-size: 13px;
+}
+
+
+
+.cath{
+    width: 100%;
+    height: 17rem;
+    background-color: whitesmoke;
+    overflow-y: hidden;
+      overflow-x: auto;
+    gap: 15px;
+    scroll-behavior: smooth;
+    display: flex;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-top: 2rem;
+
+  }
+  
+  
+.cath::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+
+  .cat1{
+    flex: 0 0 auto;
+    width: 40%;
+    height: 15rem;
+    /* background-color: red; */
+   border: 1.5px solid black;
+   margin-left: 20px;
+  }
+  
+  .cati{
+    width: 100%;
+    height: 8rem;
+ 
+  }
+  .details{
+    margin-left: 0.5rem;
+    font-size: 9px;
+  }
+  
+  
+  #amt{
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+  
+  #qnt{
+    width: 10px;
+    height: 10px;
+  }
+  
+  
+  .rate{
+    width: 100%;
+    height: auto;
+    margin-left: 0.9rem;
+    font-size: 13px;
+    /* background-color: red; */
+  }
+  
+  .rating{
+    margin-top: 1.5px;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .atc{
+    width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .atc:hover{
+  
+  
+     width: 85%;
+    height: 18px;
+  margin: 0.8rem 0 1.5rem 0.8rem;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+
+  }
+  
+#details{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    margin-top: 1.5rem;
+  
+}
+
+
+#infomation{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+
+.about{
+width: 30%;
+height: 20rem ;
+margin-top: 3rem;
+
+}
+
+
+.location{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+    
+}
+
+
+.info{
+    width: 30%;
+    height: 20rem ;
+    margin-top: 6rem;
+
+}
+
+.iw{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+.c{
+    font-size: 11px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.d{
+    width: 80%;
+    height: 25px;
+font-size: 11px;
+border-top: 1.5px solid white;
+display: flex;
+justify-content: center;
+gap: 12px;
+color: white;
+}
+
+
+}
